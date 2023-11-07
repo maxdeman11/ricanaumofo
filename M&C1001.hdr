@@ -1,0 +1,142 @@
+[C:\Program Files\SLD\Abiamofo\M&C1001.sld]
+---------------------------------------------------------------------
+Number of measurements                2284
+Number of checksum errors             0
+Time of first measurement             10/10/2023 6:00:00 PM
+Time of last measurement              10/18/2023 4:15:00 PM
+
+User setup
+---------------------------------------------------------------------
+Measurement interval                  300 sec
+Average interval                      120 sec
+Cell size                             999 cm
+Blanking distance                     3.00 m
+Measurement load                      25 %
+Diagnostics measurements              DISABLED
+Diagnostics - Interval                86400 sec
+Diagnostics - Average interval        10 sec
+Diagnostics - Number of beams         4
+Diagnostics - Number of pings         1
+Stage measurements                    DISABLED
+Stage - Powerlevel                    LOW
+Stage - Offset                        0 m
+Stage - Average interval              60 sec
+Stage - Quality threshold             150
+Stage - Number of pings               40
+Analog input 1                        NONE
+Analog input 2                        NONE
+Power output                          DISABLED
+Powerlevel                            HIGH
+Coordinate system                     XYZ
+Sound speed                           MEASURED
+Salinity                              0.0 ppt
+Distance between pings                113.59 m
+Number of beams                       2
+Number of pings per burst             1
+Software version                      1.08
+Deployment name                       M&C10
+Wrap mode                             OFF
+Deployment time                       10/10/2023 6:00:00 PM
+Comments                              Ricanau Mofo Cottica 10 oktober 2023 Max & Cecile TU Delft
+System1                               276
+System2                               386
+System3                               138
+System4                               4963
+System5                               512
+System9                               0
+System10                              0
+System11                              0
+System12                              0
+System13                              0
+System14                              2
+System16                              9
+System17                              35434
+System22                              86400
+System28                              10
+System29                              4
+System30                              1
+System31                              15087 15117 15147 15176
+System32                              96
+System37                              5
+System38                              416
+System39                              0
+System40                              0
+System41                              0
+System42                              0
+System43                              0
+Start command                         3
+CRC download                          ON
+
+Hardware configuration
+---------------------------------------------------------------------
+Serial number                         AQD 5768      
+Internal code version                 0
+Revision number                       3
+Recorder size                         9 MByte
+Firmware version                      3.31
+Velocity range                        NORMAL
+
+Head configuration
+---------------------------------------------------------------------
+Pressure sensor                       YES
+Compass                               NO
+Tilt sensor                           YES
+System 1                              1
+System 1                              0
+Head frequency                        600 kHz
+Serial number                         SVV 3947
+Transformation matrix                 4846 -4846 0
+                                      2261 2261 0
+                                      0 0 0
+Pressure sensor calibration           0 0 3464 18278
+Number of beams                       2
+System5                               25 25 0 0
+System7                               -25000 0 12500 -300
+                                      -25000 0 12500 -30
+System8                               0 0 -1
+                                      0 1 0
+                                      1 0 0
+System9                               0 0 -1
+                                      0 -1 0
+                                      -1 0 0
+System10                              0 1 -1 0
+System11                              0 -1 -1 0
+System13                              1481 259 7128 10848
+System14                              -18250 0 11300 190
+                                      -18250 0 11300 1
+System15                              0 0 0 0
+                                      0 0 0 0
+                                      0 0 0 0
+                                      0 0 0 0
+System16                              0 0 0 0
+System17                              0
+System18                              3600
+System19                              3600
+System20                              10000
+
+Data file format
+---------------------------------------------------------------------
+[C:\Program Files\SLD\Abiamofo\M&C1001.dat]
+ 1   Month                            (1-12)
+ 2   Day                              (1-31)
+ 3   Year
+ 4   Hour                             (0-23)
+ 5   Minute                           (0-59)
+ 6   Second                           (0-59)
+ 7   Error code
+ 8   Status code
+ 9   Battery voltage                  (V)
+10   Soundspeed                       (m/s)
+11   Temperature                      (degrees C)
+12   Analog input 1
+13   Analog input 2
+14   Velocity Cell 1 (Beam1|X)        (m/s)
+15   Velocity Cell 1 (Beam2|Y)        (m/s)
+16   Amplitude Cell 1 (Beam1)         (counts)
+17   Amplitude Cell 1 (Beam2)         (counts)
+     .
+     .
+     Velocity Cell n (Beam1|X)        (m/s)
+     Velocity Cell n (Beam2|Y)        (m/s)
+     Amplitude Cell n (Beam1)         (counts)
+     Amplitude Cell n (Beam2)         (counts)
